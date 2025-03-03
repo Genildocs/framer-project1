@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-nunito: 'Nunito', sans-serif;
+}
+
+html {
+  @apply font-nunito;
+}
+
+body {
+  @apply bg-[#0d1017] text-white flex items-center justify-center h-screen;
+}
+
+.box {
+  @apply size-[300px] rounded-full bg-yellow-500;
+}
