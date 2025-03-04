@@ -13,5 +13,5 @@ body {
 }
 
 .box {
-  @apply size-[300px] rounded-full bg-yellow-500;
+  @apply size-[100px] rounded-full  bg-yellow-500;
 }

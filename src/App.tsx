@@ -1,9 +1,12 @@
 import { motion } from 'motion/react';
+import Pratic from './components/Pratic';
+import AnimateModal from './components/AnimateModal';
 
 export default function App() {
   return (
     <div>
-      <motion.div className="box" animate={{ x: 100 }} />
+      {/* <Pratic /> */}
+      <AnimateModal />
     </div>
   );
 }
