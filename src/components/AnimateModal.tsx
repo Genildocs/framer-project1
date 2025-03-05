@@ -2,5 +2,5 @@ import React from 'react';
 import { motion } from 'motion/react';
 
 export default function AnimateModal() {
-  return <div>AnimateModal</div>;
+  return <ul className="flex items-center justify-center gap-2"></ul>;
 }

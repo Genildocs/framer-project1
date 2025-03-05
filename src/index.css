@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  @apply bg-[#0d1017] text-white flex items-center justify-center h-screen;
+  @apply flex items-center justify-center h-screen text-white bg-gray-800;
 }
 
 .box {
