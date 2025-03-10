@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-nunito: 'Nunito', sans-serif;
+}
+
+html {
+  @apply font-nunito;
+}
+
+body {
+  @apply flex items-center justify-center h-screen text-white bg-gradient-to-t from-blue-500 to-teal-500;
+}
+
+.box {
+  @apply size-[100px] rounded-full  bg-yellow-500;
+}
+
+.stagger {
+  @apply size-[100px] rounded-full text-2xl text-center flex items-center justify-center text-white bg-yellow-500 shadow-[0_4px_20px_rgba(0,0,0,0.2)] backdrop:blur-sm;
+}
